@@ -6,12 +6,11 @@ body {
   background-image: url(back.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: .3;
   height: 100vh;
   width: 100vw;
 }
 .back {
-  background-color: rgba(100, 100, 100, .2);
+  background-color: rgba(100, 100, 100, .8);
   height: 100vh;
   width: 100vw;
   position: absolute;
@@ -19,13 +18,23 @@ body {
   color: #fff;
 }
 .topb{
-  background-color: rgba(0, 0, 0, .8);
+  background-color: rgba(0, 0, 0, .6);
   border-radius: 20px;
   width: 70vw;
   height: 90px;
   box-shadow: 0 14px 34px -10px rgba(0, 0, 0, .8), 0 4px 20px 0px rgba(0, 0, 0, .3), 0 8px 10px -5px rgba(0, 0, 0, .3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .cont{
   display: flex;
   justify-content: center;
+}
+.title{
+  font-size: 3em;
+  font-weight: bold;
+  opacity: 1;
+  color: #fff;
+  text-shadow: 0 14px 34px -10px rgba(0, 0, 0, .8), 0 4px 20px 0px rgba(0, 0, 0, .3), 0 8px 10px -5px rgba(0, 0, 0, .3);
 }
