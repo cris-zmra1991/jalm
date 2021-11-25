@@ -8,14 +8,13 @@
 
   </head>
   <body>
-    <div class="back">
-      <div class="alpha">
+    <div class="alpha">
+      <div class="back">
         <br>
-        <div class="cont">  
-          <div class="topb">&nbsp;</div>
+        <div class="cont">
+          <div class="topb"><div class="title">Jardín Almendares</div></div>
         </div>
       </div>
     </div>
   </body>
 </html>
-
