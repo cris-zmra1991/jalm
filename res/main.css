@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
+@media screen and (max-width: 767px) {
+  .ocultar {
+    display:none;
+  }
+}
+
 body {
   margin: 0px;
   background-color: #fff;
@@ -13,7 +19,7 @@ body {
   height: 100%;
 }
 .title{
-  font-size: 2em;
+  font-size: 1.9em;
   font-weight: bold;
   font-family: 'Oswald', sans-serif;
   opacity: 1;
@@ -21,7 +27,7 @@ body {
   text-shadow: 0 14px 34px -10px rgba(0, 0, 0, .8), 0 4px 20px 0px rgba(0, 0, 0, .3), 0 8px 10px -5px rgba(0, 0, 0, .3);
 }
 .subtitle{
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-weight: bold;
   font-family: 'Oswald', sans-serif;
   color: #fff;
@@ -29,22 +35,28 @@ body {
 .search-input{
   width: 300px;
 }
+.w-100{
+  width: 100%;
+}
 .search-btn{
   display: flex;
-  width: 35px;
-  height: 35px;
+  width: 25px;
+  height: 25px;
   background-color: #78080e;
   justify-content: center;
   align-items: center;
+}
+.search-input{
+  font-size: .7em;
 }
 .search-btn:hover{
   background-color: #ba2025;
 }
 .search-icon{
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: #FFF;
 }
 .icon{
-  font-size: 1.6em;
+  font-size: 1em;
   color: #FFF;
 }
