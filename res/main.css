@@ -15,6 +15,12 @@ body {
 }
 .cont{
   width: 80vw;
+  display: flex;
+  align-items: center;
+}
+.subcont{
+  width: 120px;
+  height: 120px;
 }
 .title{
   font-size: 2em;
@@ -30,4 +36,3 @@ body {
   font-family: 'Oswald', sans-serif;
   color: #fff;
 }
-
