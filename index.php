@@ -13,22 +13,21 @@
     <div class="topb">
       <nav class="navbar">
         <div class="container">
-              <div class="d-flex align-items-center">
-              <div class="subcont"><img src="res/logo.png" height="100%"></div>
-              <div>
+          <div class="d-flex mb-2 flex-column align-items-center justify-content-center w-100 flex-md-row">
+            <div class="ocultar"><img src="res/logo.png" height="80"></div>
+            <div class="justify-content-center">
               <span class="title">Jardín Almendares</span>
               <br>
-              <span class="subtitle">Plantas ornamentales</span>
+              <span class="subtitle ocultar">Plantas ornamentales</span>
             </div>
-            <br>
-              <span>
-                <form class="d-flex">
-                  <input class="search-input" type="text" placeholder="Search">
-                  <label class="search-btn"><span class="fa fa-search search-icon"></span></label>
-                </form>
-              </span>
-              <div class="d-flex container-fluid mt-4 justify-content-center"><i class="fab fa-facebook icon"></i> &nbsp; &nbsp; &nbsp; <i class="fab fa-whatsapp icon"></i> &nbsp; &nbsp; &nbsp; <i class="fa fa-phone icon"></i> &nbsp; &nbsp; &nbsp; <i class="fa fa-user icon"></i></div>
+            <div class="ms-md-auto p-1">
+              <form class="d-flex">
+                <input class="search-input" type="text" placeholder="Search">
+                <label class="search-btn"><span class="fa fa-search search-icon"></span></label>
+              </form>
+              <span class="d-flex container-fluid mt-3 justify-content-center"><i class="fab fa-facebook icon"></i> &nbsp; &nbsp; &nbsp; <i class="fab fa-whatsapp icon"></i> &nbsp; &nbsp; &nbsp; <i class="fa fa-phone icon"></i> &nbsp; &nbsp; &nbsp; <i class="fa fa-user icon"></i></span>
             </div>
+          </div>
         </div>
       </nav>
     </div>
@@ -37,3 +36,4 @@
 
   </body>
 </html>
+
