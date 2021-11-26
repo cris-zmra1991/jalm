@@ -8,12 +8,11 @@
 
   </head>
   <body>
-    <div class="alpha">
-      <div class="back">
+    <div class="topb">
+      <div class="cont">
+        <div class="title">Jardín Almendares</div>
         <br>
-        <div class="cont">
-          <div class="topb"><div class="title">Jardín Almendares</div></div>
-        </div>
+        <div class="subtitle">Plantas ornamentales</div>
       </div>
     </div>
   </body>
