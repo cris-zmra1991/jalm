@@ -7,20 +7,7 @@ body {
 .topb{
   background-color: rgba(0, 0, 0, .9);
   width: 100vw;
-  height: 120px;
   box-shadow: 0px 0px 6px 2px black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.cont{
-  width: 80vw;
-  display: flex;
-  align-items: center;
-}
-.subcont{
-  width: 120px;
-  height: 120px;
 }
 .title{
   font-size: 2em;
@@ -35,4 +22,26 @@ body {
   font-weight: bold;
   font-family: 'Oswald', sans-serif;
   color: #fff;
+}
+.search-input{
+  width: 300px;
+}
+.search-btn{
+  display: flex;
+  width: 35px;
+  height: 35px;
+  background-color: #78080e;
+  justify-content: center;
+  align-items: center;
+}
+.search-btn:hover{
+  background-color: #ba2025;
+}
+.search-icon{
+  font-size: 1.2em;
+  color: #FFF;
+}
+.icon{
+  font-size: 1.6em;
+  color: #FFF;
 }
