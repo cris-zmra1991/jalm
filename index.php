@@ -10,9 +10,9 @@
   <body>
     <div class="topb">
       <div class="cont">
-        <div class="title">Jardín Almendares</div>
+        <span class="title">Jardín Almendares</span>
         <br>
-        <div class="subtitle">Plantas ornamentales</div>
+        <span class="subtitle">Plantas ornamentales</span>
       </div>
     </div>
   </body>
