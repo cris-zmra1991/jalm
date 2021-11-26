@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
 body {
   margin: 0px;
   background-color: #fff;
@@ -17,6 +19,7 @@ body {
 .title{
   font-size: 2em;
   font-weight: bold;
+  font-family: 'Oswald', sans-serif;
   opacity: 1;
   color: #fff;
   text-shadow: 0 14px 34px -10px rgba(0, 0, 0, .8), 0 4px 20px 0px rgba(0, 0, 0, .3), 0 8px 10px -5px rgba(0, 0, 0, .3);
@@ -24,5 +27,7 @@ body {
 .subtitle{
   font-size: 1.3em;
   font-weight: bold;
+  font-family: 'Oswald', sans-serif;
   color: #fff;
 }
+
