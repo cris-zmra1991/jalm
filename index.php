@@ -19,7 +19,7 @@
             <div class="justify-content-center align-items-center">
               <div class="d-flex justify-content-center align-items-center">
               <div class="ocultar1"><img src="res/logo.png" height="40"></div>&nbsp;<span class="title">Jardín Almendares</span></div>
-              <br>
+              
               <span class="subtitle ocultar">Plantas ornamentales</span>
             </div>
             <div class="ms-md-auto p-1">
