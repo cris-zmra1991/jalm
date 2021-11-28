@@ -15,9 +15,9 @@
       <nav class="navbar">
         <div class="container">
           <div class="d-flex mb-2 flex-column align-items-center justify-content-center w-100 flex-md-row">
-            <div class="ocultar1"><img src="res/logo.png" height="30"></div><div class="ocultar"><img src="res/logo.png" height="80"></div>
-            <div class="justify-content-center">
-              <span class="title">Jardín Almendares</span>
+            <div class="ocultar"><img src="res/logo.png" height="80"></div>
+            <div class="justify-content-center align-items-center">
+              <div class="ocultar1"><img src="res/logo.png" height="30"></div>&nbsp;<span class="title">Jardín Almendares</span>
               <br>
               <span class="subtitle ocultar">Plantas ornamentales</span>
             </div>
