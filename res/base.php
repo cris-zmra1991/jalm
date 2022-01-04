@@ -1,6 +1,6 @@
 <?php
 //define('RUTA', 'http://localhost:8030/ps4/');
-require 'medoo.php';
+require 'res/medoo.php';
 use Medoo\Medoo;
 try {
   $database = new Medoo([
