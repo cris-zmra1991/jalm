@@ -1,3 +1,4 @@
+<?php require 'res/base.php'; ?>
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
   <head>
