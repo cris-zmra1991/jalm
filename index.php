@@ -14,6 +14,13 @@
     <meta property="og:url" content="https://jardin-almendares.herokuapp.com/" />
     <meta property="og:site_name" content="Jardín Almendares - ES" />
     
+          <meta property="article:tag" content="Plantas">
+          <meta property="article:tag" content="Parques">
+          <meta property="article:tag" content="Jardin">
+          <meta property="article:tag" content="Jardin Almendares">
+          <meta property="article:tag" content="La Habana">
+          <meta property="article:tag" content="Cuba">
+    
     <link href="res/main.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
