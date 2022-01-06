@@ -25,8 +25,54 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+    <script src="res/jquery.js"></script>
   </head>
   <body>
+    <!-- Loading CSS -->
+    <style>
+        .loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            transition: 1s all;
+            opacity: 0;
+        }
+        .loading.show {
+            opacity: 1;
+        }
+        .loading .spin {
+            border: 3px solid hsla(185, 100%, 62%, 0.2);
+            border-top-color: #3cefff;
+            border-radius: 50%;
+            width: 3em;
+            height: 3em;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+          to {
+            transform: rotate(360deg);
+          }
+        }
+    </style>
+
+    <!-- Loading HTML -->
+    <div id="loading" class="loading show">
+        <div class="spin"></div>
+    </div>
+
+    <!-- Loading Javascript -->
+    <script>
+      $(document).ready(function() {
+        $('#loading').css("display", "none");
+      });
+    </script>
     <div class="topb">
       <nav class="navbar">
         <div class="container">
