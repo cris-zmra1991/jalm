@@ -78,7 +78,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="res/logo.png" alt="" width="35" height="35" class="d-inline-block align-text-top">
+          <img src="res/logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
           Jardín Almendares
         </a>
 
@@ -89,13 +89,19 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Ofertas especiales</a>
+              <a class="nav-link" href="#">Ofertas especiales</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Biblioteca</a>
             </li>
             <li class="nav-item">
               <a class="nav-link href="#"">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link href="#""><span class="fa fa-facebook"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link href="#""><span class="fa fa-whatsapp"></span></a>
             </li>
           </ul>
           <form class="d-flex">
@@ -105,6 +111,8 @@
         </div>
       </div>
     </nav>
+
+
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
