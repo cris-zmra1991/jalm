@@ -78,7 +78,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="res/logo.png" alt="" width="24" height="24" class="d-inline-block align-text-top">
+          <img src="res/logo.png" alt="" width="40" height="40" class="d-inline-block align-text-top">
           Bootstrap
         </a>
 
