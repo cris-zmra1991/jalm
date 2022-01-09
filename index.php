@@ -113,7 +113,7 @@
       </div>
     </nav>
 
-    <div class="w100d" style="box-shadow: inset 0px 0px 4px 2px rgba(34,36,38,.15);">
+    <div class="w100d" style="box-shadow: inset 0px 0px 4px 2px rgba(34,36,38,.15); padding-left: 10px; line-height: 30px;">
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item active" aria-current="page">Home</li>
