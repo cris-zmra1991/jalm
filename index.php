@@ -95,13 +95,13 @@
               <a class="nav-link" href="#">Biblioteca</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link href="#"">Contacto</a>
+              <a class="nav-link" href="#">Contacto</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link href="#""><span class="fa fa-facebook"></span></a>
+              <a class="nav-link" href="#"><span class="fa fa-facebook"></span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link href="#""><span class="fa fa-whatsapp"></span></a>
+              <a class="nav-link" href="#"><span class="fa fa-whatsapp"></span></a>
             </li>
           </ul>
           <form class="d-flex">
